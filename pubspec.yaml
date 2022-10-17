@@ -42,6 +42,14 @@ dependencies:
   # Collections and utilities functions and classes related to collections.
   collection: 1.16.0
 
+  firebase_core: ^1.24.0
+#
+  firebase_auth: ^3.11.2
+
+  google_sign_in: ^5.4.2
+
+  cloud_firestore: ^3.5.1
+
 
 dev_dependencies:
   flutter_test:

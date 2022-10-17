@@ -3,12 +3,18 @@
 ///  FlutterGen
 /// *****************************************************
 
+// ignore_for_file: directives_ordering,unnecessary_import
+
 import 'package:flutter/widgets.dart';
 
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/home_black_24dp.svg
   String get homeBlack24dp => 'assets/icons/home_black_24dp.svg';
+
+  /// File path: assets/icons/ic_google_logo.svg
+  String get icGoogleLogo => 'assets/icons/ic_google_logo.svg';
 }
 
 class Assets {

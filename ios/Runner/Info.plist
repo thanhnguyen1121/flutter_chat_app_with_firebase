@@ -43,5 +43,19 @@
 	<false/>
 	<key>UIStatusBarHidden</key>
 	<false/>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+
+    <key>CFBundleURLTypes</key>
+    <array>
+	<dict>
+		<key>CFBundleTypeRole</key>
+		<string>Editor</string>
+		<key>CFBundleURLSchemes</key>
+		<array>
+			<string>com.googleusercontent.apps.807023710093-ud4dqe79ae462dkf5qtrda57jab55hpu</string>
+		</array>
+	</dict>
+</array>
 </dict>
 </plist>

@@ -4,7 +4,7 @@ import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LocalService {
-  final String kKeyAuth = 'key_auth';
+  final String kKeyAuth = 'key_auth3';
 
   //NOTE: List key not delete when user logout
   final List<String> keyExcludes = [];
@@ -31,6 +31,10 @@ class LocalService {
       return sharedPreferences.setString(
           kKeyAuth, json.encode(authenticationDto.toJson()));
     }
+  }
+
+  Future saveAuthFirebase(String userName) {
+    return sharedPreferences.setString(kKeyAuth, json.encode(userName));
   }
 
   Future clear() async {
